@@ -40,7 +40,7 @@ button:active {
 section {
   width: 100%;
   min-height: 100vh;
-  padding: 0 50px;
+  padding: 70px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,6 +114,29 @@ section {
 }
 #donatePlanSection #plans #plan3 {
   background-color: rgba(0, 0, 255, 0.1);
+}
+
+#youtubeSection {
+  min-height: 80vh;
+  background-color: aliceblue;
+}
+
+#youtubeSection .work {
+  display: flex;
+  justify-content: center;
+}
+
+#youtubeSection .work div {
+  flex-basis: 50%;
+}
+
+#youtubeSection .work .description {
+  padding: 0 50px;
+  border-left: solid 10px tomato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: #efefef; */
 }
 
 #subscribeBox > div {
