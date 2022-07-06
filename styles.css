@@ -13,23 +13,6 @@ html {
   box-sizing: inherit;
 }
 
-#welcomeSection {
-  width: 100%;
-  height: 100vh;
-  background-image: url("./images/syria1.jpg");
-  background-repeat: no-repeat;
-  /* background-size: cover; */ /* image portion will get outside screen and will not be visible if image > screen */
-  background-size: 100% 100%; /* shrink/stretch image with screen size */
-  padding: 0 50px;
-  color: #fff;
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 h1 {
   font-size: 40px;
 }
@@ -56,7 +39,7 @@ button:active {
 
 section {
   width: 100%;
-  min-height: 90vh;
+  min-height: 100vh;
   padding: 0 50px;
   display: flex;
   flex-direction: column;
@@ -64,6 +47,14 @@ section {
   align-items: center;
   text-align: center;
   font-size: 18px;
+}
+
+#welcomeSection {
+  background-image: url("./images/syria1.jpg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */ /* image portion will get outside screen and will not be visible if image > screen */
+  background-size: 100% 100%; /* shrink/stretch image with screen size */
+  color: #fff;
 }
 
 #welcomeSection h1 {
