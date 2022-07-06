@@ -54,20 +54,20 @@ button:active {
   border: none;
 }
 
-#welcomeSection h1 {
-  font-size: 48px;
-}
-
-#donateTodaySection {
+section {
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 0 50px;
-  font-size: 18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 18px;
+}
+
+#welcomeSection h1 {
+  font-size: 48px;
 }
 
 #donateTodaySection #selectAmount {
@@ -103,17 +103,6 @@ button:active {
   margin: 46px 0 0px;
 }
 
-#donatePlanSection {
-  padding: 0 50px;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 #donatePlanSection #plans {
   display: flex;
   justify-content: space-around;
@@ -134,17 +123,6 @@ button:active {
 }
 #donatePlanSection #plans #plan3 {
   background-color: rgba(0, 0, 255, 0.1);
-}
-
-#subscribeSection {
-  padding: 0 50px;
-  width: 100%;
-  min-height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 #subscribeBox > div {
@@ -169,14 +147,7 @@ button:active {
 #conclusionSection {
   background-color: black;
   color: white;
-  padding: 0 50px;
-  width: 100%;
   min-height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 #conclusionSection h2 {
