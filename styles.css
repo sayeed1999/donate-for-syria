@@ -162,6 +162,7 @@ section {
   background-color: black;
   color: white;
   min-height: 30vh;
+  padding: 30px 50px;
 }
 
 #conclusionSection h2 {
